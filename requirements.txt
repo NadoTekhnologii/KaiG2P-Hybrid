@@ -1,0 +1,2 @@
+epitran>=1.35.3
+espyak>=0.1.0
