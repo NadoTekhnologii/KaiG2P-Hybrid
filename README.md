@@ -49,4 +49,4 @@ print(ipa)
 
 ## 📄 Лицензия
 MIT / Apache 2.0 (в зависимости от компонентов eSpeak). 
-Оригинальный код KaiG2P написан Михаилом (NadoTechnologies) и сообществом проекта KaiLuxTTS.
+Оригинальный код KaiG2P написан Михаилом (NadoTechnologies).
