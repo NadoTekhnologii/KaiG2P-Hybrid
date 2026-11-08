@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kaig2p-hybrid"
+version = "1.0.0"
+description = "Cascading (hybrid) phonemizer for the Russian language with native stress support"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Mikhail", email = "nado@example.com"}
+]
+dependencies = [
+    # Здесь перечисли базовые зависимости, если они есть. 
+    # Если скрипт использует только стандартную библиотеку и subprocess, можно оставить пустым.
+]
+
+[tool.setuptools]
+py-modules = ["kai_g2p_hybrid", "kai_g2p", "multi_g2p", "en_g2p"]
